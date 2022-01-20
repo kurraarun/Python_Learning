@@ -3,7 +3,7 @@
 a = [23,5,2,43,21,52,6,78,91,53,65]
 a_len = len(a)
 b = 0
-
+print('')
 print('Here is the Given List ')
 for i in a:
     b += 1
@@ -14,12 +14,12 @@ for i in a:
 
 # Identifying the maximum number in the given list
 b = max(a)
-
+print('')
 print("Maximum number of the above list %d" %b)
 
 c = min(a)
 print("Minimum number of the above list %d" %c)
-
+print('')
 a.sort()
 print ("Sorting the given numbers in Acsending order " )
 
@@ -31,7 +31,7 @@ for y in a:
     else:
         print(y, end=' ,')
 # Sorting the numbers in Descending order
-
+print('')
 print ("Sorting the given numbers in Descending order " )
 a.sort(reverse = True)
 i = 0
