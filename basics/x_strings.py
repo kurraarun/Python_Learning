@@ -47,12 +47,12 @@ a = ['abc' ,'xyz','pqr','stg']
 
 print( a[0])
 
-print('hello \t sds')
+print('hello \t tablespace')
 print()
+
 # Function to identify the starting or ending string
 
 a ="Hello World!"
-
 print(a.startswith('hello'))
 print(a.endswith('World!'))
 print()
@@ -70,9 +70,6 @@ a ="Helloaworldaworldisabigaenough"
 print(a.split("a"))
 
 
-challenge = ' thirty days of python '
-print(challenge.strip('y')) # 5
-print()
 
 # Swap the each letter in the given string from Lower case to Upper and Upper case to Lower
 str1 = 'hello world'
@@ -83,3 +80,9 @@ print(str2.swapcase())
 
 str3 = 'Hello World'
 print(str3.swapcase())
+
+str2 = 'HELLO WORLD'
+print(str2.isupper())
+
+str1 = 'hello world'
+print(str1.islower())
