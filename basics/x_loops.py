@@ -36,20 +36,7 @@ for i in range(len(x)):
 print('Smallest number is : ',y)
 print()
 
-# Sorting the list 
-a= [23,4,26,76,34,21,87,99,3,74]
-for i in range(len(a)):
-    for j in range(len(a)-1):
-        if a[i] > a[j]:
-           temp = a[i]
-           a[i] = a[j]
-           a[j] = temp
-    print(a)
-print("Descending order of list")
-print(a)  
-print()
-print()
-# sort the ascending way
+
 
 a= [23,4,26,76,34,21,87,99,3,74]
 print(a)
