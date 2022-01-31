@@ -33,13 +33,13 @@ f = open("C:\AKURRA\ADD.txt","w")
 f.write("Woops! I have deleted the content! i overwritten the data ")
 f.close()
 
-f11 = open("C:\AKURRA\ADD.txt","r")
+#f11 = open("C:\AKURRA\ADD.txt","r")
 
-print(f11.read())
+#print(f11.read())
 
 # To create new file in the specified path
 
-f = open("C:\AKURRA\myfile_arun2.txt","x")
+#f = open("C:\AKURRA\myfile_arun2.txt","x")
 
 f2 = open("C:\AKURRA\myfile_arun2.txt","w")
 
@@ -49,3 +49,5 @@ f2.close()
 f3 = open("C:\AKURRA\myfile_arun2.txt","r")
 
 print(f3.read())
+
+
