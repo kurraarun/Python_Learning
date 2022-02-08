@@ -11,6 +11,19 @@ print(a.lstrip('#'))
 print(a.strip('#'))
 print()
 
+print('This Exmample to take input from user and print it ')
+
+print('please Enter any text or number ')
+
+ab = sys.stdin.readline()
+print("Here the Entered Value is ",ab)
+print(type(ab))
+print()
+print("PLease enter value as we are using Input Method ")
+bc = input()
+print('Your Entered Value is ', bc)
+print(type(bc))
+
 sys.stdout.write('Another exaample for  for STDOUT function \n')
 print(sys.version)
 print()
