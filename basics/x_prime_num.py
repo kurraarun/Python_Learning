@@ -23,3 +23,24 @@ while num_list:
     num_list = num_list - set(range(min_num,n+1,min_num))
 #    print(num_list)
 print()
+
+
+print('Prime numbers in another way ')
+
+i=1
+while i<=n:
+    k=0
+    j=1
+    while j <=i:
+        if i%j==0:
+            k = k+1    
+        j = j+1
+    if k <=2 and i != 1:
+        print(i ,end = "\t")
+    i = i +1
+
+
+
+
+
+
